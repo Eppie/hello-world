@@ -1,1 +1,7 @@
-python hello-world.py OR ./hello-world.py
+```
+python hello-world.py
+```
+Alternatively:
+```
+./hello-world.py
+```

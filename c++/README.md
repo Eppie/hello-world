@@ -1,2 +1,4 @@
-g++ hello-world.cpp -o hello-world
-./hello-world
+```
+g++ hello-world.cpp -o hello
+./hello
+```
