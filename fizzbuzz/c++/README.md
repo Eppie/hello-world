@@ -1,0 +1,4 @@
+```
+g++ fizzbuzz.cpp -o fizzbuzz
+./fizzbuzz
+```
