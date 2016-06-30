@@ -1,0 +1,3 @@
+```
+php fizzbuzz.php
+```
