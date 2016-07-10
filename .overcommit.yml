@@ -17,6 +17,32 @@ PreCommit:
     on_warn: fail
     flags: ['-c', '/home/eppie/Downloads/scalastyle_config.xml']
 
-
   TrailingWhitespace:
+    enabled: true
+
+  AuthorEmail:
+    enabled: true
+
+  Brakeman:
+    enabled: true
+
+  BrokenSymlinks:
+    enabled: true
+
+  CaseConflicts:
+    enabled: true
+
+  EsLint:
+    enabled: true
+
+  GoLint:
+    enabled: true
+
+  Hlint:
+    enabled: true
+
+  JavaCheckstyle:
+    enabled: true
+
+  JsHint:
     enabled: true
