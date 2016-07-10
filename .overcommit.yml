@@ -17,9 +17,6 @@ PreCommit:
     on_warn: fail
     flags: ['-c', '/home/eppie/Downloads/scalastyle_config.xml']
 
-  TrailingWhitespace:
-    enabled: true
-
   AuthorEmail:
     enabled: true
 
@@ -45,4 +42,25 @@ PreCommit:
     enabled: true
 
   JsHint:
+    enabled: true
+
+  Mdl:
+    enabled: true
+
+  MergeConflicts:
+    enabled: true
+
+  Pep8:
+    enabled: true
+
+  RubyLint:
+    enabled: true
+
+  ShellCheck:
+    enabled: true
+
+  TrailingWhitespace:
+    enabled: true
+
+  YamlSyntax:
     enabled: true
