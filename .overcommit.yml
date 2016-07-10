@@ -17,16 +17,7 @@ PreCommit:
     on_warn: fail
     flags: ['-c', '/home/eppie/Downloads/scalastyle_config.xml']
 
-  AuthorEmail:
-    enabled: true
-
   Brakeman:
-    enabled: true
-
-  BrokenSymlinks:
-    enabled: true
-
-  CaseConflicts:
     enabled: true
 
   EsLint:
@@ -45,9 +36,6 @@ PreCommit:
     enabled: true
 
   Mdl:
-    enabled: true
-
-  MergeConflicts:
     enabled: true
 
   Pep8:
