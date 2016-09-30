@@ -17,7 +17,7 @@ T quicksort( T arr ) {
 
 	auto pivot = arr[ arr.size() / 2 ];
 
-	for( auto e : arr ) {
+	for( auto && e : arr ) {
 		if( e < pivot ) {
 			lesser.push_back( e );
 		} else if( e > pivot ) {
@@ -47,7 +47,7 @@ T quicksort( T arr ) {
 int main() {
 	vector<int> arr = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 11, 3, 0 };
 	auto result = quicksort( arr );
-	for( auto e : result ) {
+	for( auto && e : result ) {
 		cout << e << ", ";
 	}
 	cout << endl;
